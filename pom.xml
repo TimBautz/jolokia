@@ -29,9 +29,6 @@
 
   <modules>
     <module>agent</module>
-    <module>it</module>
-    <module>client</module>
-    <module>tools/test-util</module>
   </modules>
 
   <build>
