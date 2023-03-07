@@ -18,8 +18,7 @@ package org.jolokia.util;
 
 import java.util.StringTokenizer;
 
-import javax.servlet.http.HttpServletRequest;
-
+import jakarta.servlet.http.HttpServletRequest;
 import org.jolokia.util.Base64Util;
 
 public final class AuthorizationHeaderParser {
