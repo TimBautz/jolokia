@@ -41,16 +41,4 @@
     <module>war-unsecured</module>
   </modules>
 
-  <profiles>
-    <profile>
-      <id>mule</id>
-      <modules>
-        <!-- Mule only for Java 7+ (test won't compile on java 6 -->
-        <module>mule</module>
-      </modules>
-      <activation>
-        <jdk>[1.7,)</jdk>
-      </activation>
-    </profile>
-  </profiles>
 </project>
