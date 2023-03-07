@@ -36,6 +36,7 @@
 
   <modules>
     <module>core</module>
+    <module>jsr160</module>
     <module>war</module>
     <module>war-unsecured</module>
   </modules>
