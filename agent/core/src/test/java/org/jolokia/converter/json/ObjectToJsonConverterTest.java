@@ -1,6 +1,5 @@
 package org.jolokia.converter.json;
 
-import java.beans.Transient;
 import java.io.File;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
@@ -258,12 +257,10 @@ public class ObjectToJsonConverterTest {
             this.value = value;
         }
 
-        @Transient
         public String getTransientValue() {
             return transientValue;
         }
 
-        @Transient
         public void setTransientValue(String transientValue) {
             this.transientValue = transientValue;
         }
